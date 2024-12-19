@@ -21,7 +21,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: #dc2f2f;
   text-align: center;
 }
 header {
@@ -43,7 +43,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
+  color: #dc2f2f;
 }
 .submit-button {
   margin-left: 10px;
