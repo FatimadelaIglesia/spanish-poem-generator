@@ -7,42 +7,47 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Spanish Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Spanish poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Amanecía en el naranjel.
-        <br />
-        Abejitas de oro buscaban la miel.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/FatimadelaIglesia" target="_blank"
-        >Fatima de la Iglesia</a
-      >
-      and is
-      <a
-        href="https://github.com/FatimadelaIglesia/spanish-poem-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://fatima-spanish-poem.netlify.app/Netlyfy" target="_blank"
-        >Netlyfy</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Spanish Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Spanish poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Amanecía en el naranjel.
+          <br />
+          Abejitas de oro buscaban la miel.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/FatimadelaIglesia" target="_blank"
+          >Fatima de la Iglesia</a
+        >
+        and is
+        <a
+          href="https://github.com/FatimadelaIglesia/spanish-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a
+          href="https://fatima-spanish-poem.netlify.app/Netlyfy"
+          target="_blank"
+          >Netlyfy</a
+        >
+      </footer>
+    </div>
     <script scr="src/index.js"></script>
   </body>
 </html>
