@@ -1,12 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
-
-  new Typewriter("#poem", {
-    strings: "Amanecia en el naranjel",
-    autoStart: true,
-    delay: 1,
-    cursor: "",
-  });
+  let poemElement = document.querySelector("#poem");
+  poemElement.innerHTML = "Amanecia en el naranjel";
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
