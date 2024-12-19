@@ -1,0 +1,13 @@
+function generatePoem(event) {
+  event.preventDefault();
+
+  new Typewriter("#poem", {
+    strings: "Amanecia en el naranjel. Abejitas de oro buscaban la miel.",
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
+}
+
+let poemFormElement = document.querySelector("#poem-generator-form");
+poemFormElement.addEventListener("submit", generatePoem);
