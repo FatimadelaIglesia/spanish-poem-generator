@@ -1,7 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
   let poemElement = document.querySelector("#poem");
-  poemElement.innerHTML = "Amanecia en el naranjel";
+  poemElement.innerHTML = "Está en la flor azul";
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
