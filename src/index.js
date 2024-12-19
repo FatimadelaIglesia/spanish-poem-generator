@@ -2,9 +2,9 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "Está en la flor azul",
+    strings: ["Está en la flor azul"],
     autoStart: true,
-    delay: 1,
+    delay: 75,
     cursor: "",
   });
 }
