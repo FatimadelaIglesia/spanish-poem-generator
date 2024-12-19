@@ -2,7 +2,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "Amanecia en el naranjel. Abejitas de oro buscaban la miel.",
+    strings: "Amanecia en el naranjel",
     autoStart: true,
     delay: 1,
     cursor: "",
