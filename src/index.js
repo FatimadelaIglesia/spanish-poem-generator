@@ -2,9 +2,9 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: ["Está en la flor azul"],
+    strings: "La tombe dit à la rose",
     autoStart: true,
-    delay: 75,
+    delay: 1,
     cursor: "",
   });
 }
