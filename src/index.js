@@ -1,7 +1,12 @@
 function generatePoem(event) {
   event.preventDefault();
-  let poemElement = document.querySelector("#poem");
-  poemElement.innerHTML = "Está en la flor azul";
+
+  new Typewriter("#poem", {
+    strings: "La tombe dit à la rose",
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
