@@ -80,3 +80,12 @@ footer {
   font-size: 13px;
   margin-top: 30px;
 }
+.generating {
+  animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
