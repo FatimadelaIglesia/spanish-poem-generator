@@ -2,7 +2,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "La tombe dit a la rose",
+    strings: "Amanecia en el naranjel",
     autoStart: true,
     delay: 1,
     cursor: "",
